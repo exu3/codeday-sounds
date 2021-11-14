@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const sounds = [
@@ -61,7 +60,47 @@ const sounds = [
   {
     type: "🍼",
     sound: "/sounds/plastic-bottle.m4a",
-    description: "When the fans are spinning",
+    description: "Crinkly plastic bottles",
+  },
+  {
+    type: "👜",
+    sound: "/sounds/plastic-bag.m4a",
+    description: "Plastic sticker wrapper",
+  },
+  {
+    type: "🖊",
+    sound: "/sounds/sharpie.m4a",
+    description: "Sharpie on paper",
+  },
+  {
+    type: "✂️",
+    sound: "/sounds/ripping-paper.m4a",
+    description: "Ripping paper",
+  },
+  {
+    type: "😧",
+    sound: "/sounds/no.m4a",
+    description: '"no!"',
+  },
+  {
+    type: "🍬",
+    sound: "/sounds/skittles.m4a",
+    description: "Skittles",
+  },
+  {
+    type: "📦",
+    sound: "/sounds/box.m4a",
+    description: "Opening a snack box",
+  },
+  {
+    type: "🍾",
+    sound: "/sounds/bottle-cap.m4a",
+    description: "Opening a water bottle",
+  },
+  {
+    type: "🍌",
+    sound: "/sounds/peeling-sticker.m4a",
+    description: "Peeling a sticker",
   },
 ];
 
