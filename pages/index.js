@@ -41,12 +41,27 @@ const sounds = [
   {
     type: "👆",
     sound: "/sounds/table-scratch.m4a",
-    description: "Scratching the tables",
+    description: "Scratching the table",
   },
   {
     type: "👌",
     sound: "/sounds/snap.m4a",
     description: "Snap",
+  },
+  {
+    type: "🚪",
+    sound: "/sounds/door-knob.m4a",
+    description: "Door knob",
+  },
+  {
+    type: "💨",
+    sound: "/sounds/fans.m4a",
+    description: "When the fans are spinning",
+  },
+  {
+    type: "🍼",
+    sound: "/sounds/plastic-bottle.m4a",
+    description: "When the fans are spinning",
   },
 ];
 
@@ -83,16 +98,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p>Made at CodeDay Bay Area Fall 2021</p>
       </footer>
     </div>
   );
